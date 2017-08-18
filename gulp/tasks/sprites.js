@@ -4,7 +4,11 @@ var gulp = require('gulp'),
 var config = {
     mode: {
         css: {
-            
+            render: {
+                css: {
+                    template: './gulp/templates/sprite.css'
+                }
+            }
         }
     }
 }
